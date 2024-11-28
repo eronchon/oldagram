@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <div class="header-content">
-                    <img src="images/logo.png" class="img-logo" alt="Oldagram logo">
-                    <img src="images/user-avatar.png" class="img-user-avatar" alt="User's profile photo">
-                </div>
-            </div>
-            
-            <article>
-                <div class="poster-info-section">
-                    <img src="images/avatar-vangogh.jpg" class="img-user-avatar" alt="Poster's profile photo">
-                    <div class="user-name-location">
-                        <p><span class="text-bold">Vincent van Gogh</span></p>
-                        <p>Zundert, Netherlands</p>
-                    </div>
-                </div>
-                
-                <img src="images/post-vangogh.jpg" class="img-post" alt="Poster's upload">
-                
-                <div class="icon-section">
-                    <button class="btn-icon">
-                        <img src="images/icon-heart.png" class="img-icon" id="like-btn" alt="heart icon">
-                    </button>
-                    <button class="btn-icon">
-                        <img src="images/icon-comment.png" class="img-icon" alt="comment icon">
-                    </button>
-                    <button class="btn-icon">
-                        <img src="images/icon-dm.png" class="img-icon" alt="send icon">
-                    </button>
-                </div>
-                    
-                <p class="text-likes"><span class="text-bold" id="likes-el"></span></p>
-                <p class="text-caption"><span class="text-bold">vincey1853</span> just took a few mushrooms lol</p>
-            </article>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-content">
+          <img src="images/logo.png" class="img-logo" alt="Oldagram logo" />
+          <img
+            src="images/user-avatar.png"
+            class="img-user-avatar"
+            alt="User's profile photo"
+          />
         </div>
-        
-        <script src="index.js"></script>
-    </body>
+      </div>
+
+      <article>
+        <div class="poster-info-section">
+          <img
+            src="images/avatar-vangogh.jpg"
+            class="img-user-avatar"
+            alt="Poster's profile photo"
+          />
+          <div class="user-name-location">
+            <p><span class="text-bold">Vincent van Gogh</span></p>
+            <p>Zundert, Netherlands</p>
+          </div>
+        </div>
+
+        <img
+          src="images/post-vangogh.jpg"
+          class="img-post"
+          alt="Poster's upload"
+        />
+
+        <div class="icon-section">
+          <button class="btn-icon">
+            <img
+              src="images/icon-heart.png"
+              class="img-icon"
+              id="like-btn"
+              alt="heart icon"
+            />
+          </button>
+          <button class="btn-icon">
+            <img
+              src="images/icon-comment.png"
+              class="img-icon"
+              alt="comment icon"
+            />
+          </button>
+          <button class="btn-icon">
+            <img src="images/icon-dm.png" class="img-icon" alt="send icon" />
+          </button>
+        </div>
+
+        <p class="text-likes"><span class="text-bold" id="likes-el"></span></p>
+        <p class="text-caption">
+          <span class="text-bold">vincey1853</span> just took a few mushrooms
+          lol
+        </p>
+      </article>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
