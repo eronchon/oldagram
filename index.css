@@ -1,0 +1,103 @@
+:root{
+    --grey: #C6C6C6; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", serif;
+}
+
+/* Typography */
+
+p {
+    margin: 0;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-likes, .text-caption {
+    margin-top: 8px;
+}
+
+/* Images */
+
+.img-logo {
+    width: 127px;
+}
+
+.img-user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.img-post {
+    max-width: 100%;
+    height: 375px;
+}
+
+.img-icon {
+    width: 23px;
+}
+
+.img-icon:hover {
+    opacity: 0.5;
+}
+
+/* Layout */
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.header {
+    border-bottom: 2px solid var(--grey);
+    padding: 8px 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    padding-bottom: 10px;
+}
+
+.icon-section,
+.text-likes,
+.text-caption {
+    margin-left: 10px;
+}
+
+.poster-info-section {
+    display: flex;
+    padding: 10px
+}
+
+.user-name-location {
+    margin-left: 7px;
+}
+
+.icon-section {
+    margin-top: 10px;
+}
+
+/* Buttons */
+
+button {
+    cursor: pointer;
+}
+
+.btn-icon {
+    all: unset;
+    cursor: pointer;
+    margin-right: 10px;
+}
